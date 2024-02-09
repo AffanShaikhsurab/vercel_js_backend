@@ -13,7 +13,7 @@ const cors = require("cors");
 auth.use(cors());
 
 // Your base URL
-const URL = "https://backend-one-inky.vercel.app/";
+const URL = "https://vercelbackendkle.onrender.com";
 
 // Signup route
 auth.post("/signup", async (req, res) => {
